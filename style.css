@@ -1,0 +1,192 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    transition: all 0.3s ease;
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#image-gallery .modal-footer{
+    display: block;
+}
+.modal-dialog{
+    width: 500px;
+    height: 400px;
+}
+.modal-dialog{
+    width: 500px;
+    height: 400px;
+}
+.modal-modal-body{
+    width: 90%;
+    height: 90%;
+}
+#image-gallery-image{
+    width: 400px;
+    height: 350px;
+}
+label{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card{
+    border: 1px solid rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    min-height: 500px;
+    max-height: auto;
+    width: 90%;
+    margin: 10px  auto;
+
+}
+.card .card-header{
+    background: rgba(0, 0, 0, 0.664);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.card-header form{
+    align-items: center;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 0;
+    border-radius: 5px;
+}
+form input{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    height: 26px;
+    padding: 0 10px;
+}
+form button{
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    transform: translateY(-1.3px);
+    width: 50px;
+    height: 27.8px;
+    padding: 0;
+    outline: none;
+}
+form button img{
+    width: 20px;
+}
+input, button{
+    border-radius: 0;
+    border: none;
+    height: 37px;
+    padding: 5px;
+    margin: 0;
+}
+
+.card-body{
+    align-items: center;
+    padding: 0;
+}
+.card-body text{
+    padding: 15px;
+    margin: 10px;
+}
+.card-body form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-body form input{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    height: 26px;
+    padding: 0 10px;
+    width: 620px;
+}
+.card-body form button{
+    background-color: rgb(223, 223, 223);
+    border: none;
+    transform: translateY(0);
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    height: 28px;
+    padding: 0;
+    outline: none;
+}
+.card-body form button p{
+    font-size: 14px;
+    margin-top: 2px;
+}
+.mainDiv{
+    align-items: center;
+    margin: 0 auto;
+}
+.imageDiv img{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 250px;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+}
+.imageDiv p{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out bottom; 
+    font-size: 20px;
+}
+.load-more{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.664);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px;
+}
+.load-more:hover{
+    box-shadow: 0 0 20px  grey;
+}
+.col{
+    width: 100%;
+}
+.col-lg-3{
+    padding: 0;
+}
+.main{
+    position: relative;
+}
+.scrollToTop{
+    position: absolute;
+    right: 90px;
+    bottom: 20px;
+}
+.scrollToTop img{
+    width: 30px;
+    height: 30px;
+}
+.scrollToTop img:hover{
+    box-shadow: 0 0 20px  grey;
+}
